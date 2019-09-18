@@ -18,16 +18,16 @@ label.inner-nav {
   font-size: 12px;
 }
 
-footer li a {
-  text-decoration: none;
-  color: #505050;
-}
-
 a {
   text-align: center;
   text-decoration: none;
   color: #0077c5;
   font-size: 0.8rem;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #505050;
 }
 
 .inner-nav a {
