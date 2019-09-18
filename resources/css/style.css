@@ -1,0 +1,45 @@
+
+html{
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	margin-top: 0;
+	width: 100%;
+	background-color: #ECEEF1;
+	font-family: 'lato', sans-serif
+}
+.main{
+	width: 100%;
+}
+.main nav{
+	display: inline;
+	float: right;
+}
+.inner-nav{
+	font-weight: small;
+	font-size: 12px;
+}
+.inner-nav a{
+	text-decoration: none;
+	color: #0077c5;
+}
+
+div button{
+	display: inline-block;
+	background-color: #0077c5;
+	color: #fff;
+	width: 100px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+}
+header{
+	width: 250px;
+}
+.logo{
+	width: 100px;
+	height: 80px;
+	background-size: cover;
+}
