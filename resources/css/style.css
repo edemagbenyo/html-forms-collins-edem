@@ -22,6 +22,7 @@ footer li a {
   text-decoration: none;
   color: #505050;
 }
+
 a {
   text-align: center;
   text-decoration: none;
@@ -41,7 +42,6 @@ button.create-account-btn img {
   padding-right: 5px;
 }
 
-
 footer p {
   font-size: 12px;
   color: #505050;
@@ -53,7 +53,7 @@ footer p {
 
 footer li {
   padding: 0 5px 15px 0;
-}  
+}
 
 .inner-nav p {
   display: inline-block;
@@ -110,7 +110,7 @@ nav.logo img {
   margin: 10px auto;
   display: block;
 }
-    
+
 header.header ul li img {
   width: 25px;
   padding: 0 5px;
