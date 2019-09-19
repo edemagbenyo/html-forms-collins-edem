@@ -12,7 +12,7 @@ nav.main {
   height: 50px;
 }
 
-label.inner-nav {
+.inner-nav {
   float: right;
   font-weight: small;
   font-size: 12px;
@@ -36,8 +36,7 @@ footer li a {
   display: block;
 }
 
-button img,
-button.create-account-btn img {
+button img{
   width: 20px;
   padding-right: 5px;
 }
@@ -73,7 +72,7 @@ button {
 }
 
 header.header,
-section {
+main {
   width: 30%;
   margin: auto;
 }
@@ -116,7 +115,7 @@ header.header ul li img {
   padding: 0 5px;
 }
 
-section div.form {
+main div.form {
   border-top: 1px solid #ccc;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
@@ -124,13 +123,13 @@ section div.form {
   background-color: #fff;
 }
 
-section div.form h1,
-section div.form h2 {
+main div.form h1,
+main div.form h2 {
   text-align: center;
   font-weight: 300;
 }
 
-section div.form h2 {
+main div.form h2 {
   font-size: 0.9rem;
   margin: 0;
 }
@@ -157,7 +156,16 @@ form label input {
   margin-top: 10px;
 }
 
-button.create-account-btn {
+input.create-account-btn {
+  display: inline-block;
+  background:#0077c5 url('../img/lock-icon.png') 10px/20px 20px  no-repeat;
+  color: #fff;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 0;
+  font-size: 15px;
+  line-height: 0;
   width: 100%;
   margin: 20px 0 40px 0;
   padding: 20px 0;
