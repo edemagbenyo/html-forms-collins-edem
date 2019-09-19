@@ -36,7 +36,7 @@ footer li a {
   display: block;
 }
 
-button img{
+button img {
   width: 20px;
   padding-right: 5px;
 }
@@ -158,14 +158,10 @@ form label input {
 
 input.create-account-btn {
   display: inline-block;
-  background:#0077c5 url('../img/lock-icon.png') 10px/20px 20px  no-repeat;
+  background: #0077c5 url('../img/lock-icon.png') 10px/20px 20px  no-repeat;
   color: #fff;
-  width: 100px;
   border: 1px solid black;
   border-radius: 5px;
-  padding: 10px 0;
-  font-size: 15px;
-  line-height: 0;
   width: 100%;
   margin: 20px 0 40px 0;
   padding: 20px 0;
@@ -180,10 +176,6 @@ p.agree {
   text-align: center;
   margin: 15px 0 30px 0;
   line-height: 1.5em;
-}
-
-p.agree a {
-  font-size: inherit;
 }
 
 .captcha {
