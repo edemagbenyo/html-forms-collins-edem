@@ -1,0 +1,197 @@
+body {
+  margin-top: 0;
+  width: 100%;
+  background-color: #eceef1;
+  font-family: "lato", sans-serif;
+  color: #666;
+}
+
+nav.main {
+  display: block;
+  padding: 5px 20px 5px;
+  height: 50px;
+}
+
+.inner-nav {
+  float: right;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: #0077c5;
+  font-size: 0.8rem;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #505050;
+}
+
+.inner-nav a {
+  text-decoration: none;
+  color: #0077c5;
+  display: block;
+}
+
+button img {
+  width: 20px;
+  padding-right: 5px;
+}
+
+footer p {
+  font-size: 12px;
+  color: #505050;
+  font-weight: 400;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+footer li {
+  padding: 0 5px 15px 0;
+}
+
+.inner-nav p {
+  display: inline-block;
+  margin: 3px;
+}
+
+button {
+  display: inline-block;
+  background-color: #0077c5;
+  color: #fff;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 0;
+  font-size: 15px;
+  line-height: 0;
+}
+
+header.header,
+main {
+  width: 30%;
+  margin: auto;
+}
+
+header.header {
+  margin-top: 50px;
+}
+
+ul {
+  list-style: none;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.header ul {
+  text-align: center;
+  padding: 10px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+.header ul li {
+  padding: 0 10px 0 0;
+  line-height: 30px;
+}
+
+nav.logo img {
+  width: 30%;
+  background-size: cover;
+  margin: 10px auto;
+  display: block;
+}
+
+header.header ul li img {
+  width: 25px;
+  padding: 0 5px;
+}
+
+main div.form {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 30px;
+  background-color: #fff;
+}
+
+main div.form h1,
+main div.form h2 {
+  text-align: center;
+  font-weight: 300;
+}
+
+main div.form h2 {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+a.learn-more {
+  display: block;
+}
+
+form label,
+form label input {
+  display: block;
+}
+
+form label {
+  font-size: 0.8rem;
+  margin: 15px 0 25px 0;
+}
+
+form label input {
+  width: 100%;
+  border-radius: 2px;
+  font-size: 25px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+input.create-account-btn {
+  display: inline-block;
+  background: #0077c5 url('../img/lock-icon.png') 10px/20px 20px  no-repeat;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  margin: 20px 0 40px 0;
+  padding: 20px 0;
+  font-size: 15px;
+  line-height: 0;
+}
+
+p.agree {
+  font-size: 0.8em;
+  font-style: italic;
+  color: #aaa;
+  text-align: center;
+  margin: 15px 0 30px 0;
+  line-height: 1.5em;
+}
+
+.captcha {
+  background: #eceef1;
+  display: block;
+  width: 100%;
+  font-size: 10px;
+  text-align: center;
+  padding: 20px 0;
+  color: #8d9096;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+footer {
+  text-align: center;
+  margin: 20px 0;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <title>HTML SIGN UP FORM</title>
+</head>
+
+<body>
+    <nav class="main">
+        <div class="inner-nav">
+            <p>Already have an Intuit account?
+                    <a href="#"> I forgot my User ID or Password </a></p>
+            <button>
+                <img src="./resources/img/lock-icon.png" alt=" lock icon"> Sign In</button>
+        </div>
+    </nav>
+
+    <header class="header">
+        <nav class="logo">
+            <img src="resources/img/download.png" alt="Intuit logo">
+        </nav>
+        <ul>
+            <li><img src="./resources/img/mint.png" alt="Mint logo"> Mint</li>
+            <li><img src="./resources/img/quickbook.png" alt="QuickBooks logo"> Quickbooks</li>
+            <li><img src="./resources/img/turbo.jpeg" alt="Turbotax logo"> Turbotax</li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="form">
+            <h1>Create an Intuit account</h1>
+        <h2>One account for everything Intuit, including Mint.</h2>
+        <a class="learn-more" href="#">Learn more</a>
+        <form action="/" method="POST">
+            <label>
+                Email Address
+                <input type="email" name="email">
+            </label>
+            <label>
+                Phone (recommended)
+                <input type="tel" name="email">
+                <span>Standard call, messaging or data rates may apply.</span>
+            </label>
+            <label>
+                Password
+                <input type="password">
+            </label>
+            <input type="submit" value="Create an account" class="create-account-btn">
+        </form>
+        <p class="agree">By clicking Create account, you agree to our
+            <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.</p>
+        </div>
+        <div class="captcha">
+            Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="#">Legal</a>
+            </li>
+            <li>
+                <a href="#">Privacy</a>
+            </li>
+            <li>
+                <a href="#">Security</a>
+            </li>
+        </ul>
+        <p> &copy; 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
+            registered trademarks of Intuit Inc.
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+    </footer>
+</body>
+
+</html>
